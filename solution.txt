@@ -1,0 +1,108 @@
+86  git clone https://github.com/Ryan-Fitzgerald-9/u1_star_wars_hw.git
+   87  ls
+   88  cd u1_star_wars_hw
+   89  ls
+   90  mkdir star_wars
+   91  cd star_wars
+   92  mkdir empire rebellion
+   93  cd empire
+   94  touch darth_vader.txt
+   95  ls
+   96  echo "...heavy breathing..." >> darth_vader.txt
+   97  touch emperor_palpatine.txt
+   98  mkdir death_star
+   99  mv darth_vader.txt ./death_star
+  100  cd death_star
+  101  ls
+  102  ..
+  103  git add .
+  104  git commit -m"initial commit"
+  105  git push origin main
+  106  star_wars/rebellion
+  107  touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt
+  108  less princess_leia.txt
+  109  pwd
+  110  ls
+  111  ls -a
+  112  clear
+  113  ls
+  114  cd desktop
+  115  pwd
+  116  mkdir GA
+  117  ls
+  118  mkdir wrongFolder
+  119  ls
+  120  rmdir wrongFolder
+  121  ls
+  122  cd GA
+  123  ls
+  124  pwd
+  125  mkdir unit1 unit2 unit3 unit4
+  126  ls
+  127  clear
+  128  pwd
+  129  cd unit1
+  130  mkdir week1
+  131  ls
+  132  mkdir week1/monday
+  133  ls
+  134  cd week1
+  135  ls
+  136  clear
+  137  cd monday
+  138  pwd
+  139  cd ..
+  140  cd ../..
+  141  cd
+  142  cd GA/unit1/week1/monday
+  143  cd desktop
+  144  GA/unit1/week1/monday
+  145  cd GA/unit1/week1/monday
+  146  touch file.txt
+  147  ls
+  148  clear
+  149  cd
+  150  pwd
+  151  clear
+  152  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  153  brew install zsh
+  154  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  155  GA/unit1/week1/monday/u1_star_wars_hw
+  156  GA
+  157  desktop
+  158  GA/unit1/week1/monday/u1_star_wars_hw
+  159  star_wars
+  160  rebellion
+  161  touch obi_wan.txt && touch luke_skywalker.txt
+  162  mkdir millenium_falcon
+  163  cd millenium_falcon
+  164  touch han_solo.txt && touch chewbacca.txt
+  165  .
+  166  ..
+  167  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ./millenium_falcon
+  168  mv millenium_falcon ../death_star
+  169  ..
+  170  death_star
+  171  ..
+  172  cd empire/death_star
+  173  ..
+  174  mv death_star millenium_falcon
+  175  mv millenium_falcon ./empire/death_star
+  176  git add .
+  177  git commit -m "initial commit"
+  178  git push origin main
+  179  mv millenium_falcon/* ..
+  180  empire/death_star/millenium_falcon
+  181  mv millenium_falcon/* ..
+  182  ..
+  183  mv millenium_falcon/* .
+  184  rm obi_wan.txt
+  185  mv luke_skywalker.txt chewbacca.txt han_solo.txt princess_leia.txt ./millenium_falcon
+  186  mv millenium_falcon ../../rebellion
+  187  mv darth_vader.txt ..
+  188  ..
+  189  rm death_star
+  190  rm -r death_star
+  191  git add .
+  192  git commit -m "initial commit"
+  193  git push origin main
