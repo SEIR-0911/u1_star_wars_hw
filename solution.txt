@@ -1,4 +1,58 @@
-ls
+Act1
+git clone https://github.com/logankrieger317/u1_star_wars_hw.git
+  926  ls
+  927  u1_star_wars_hw
+  928  code .
+  929  mkdir star_wars
+  930  mkdir empire rebellion
+  931  ls
+  932  cd star_wars
+  933  ls
+  934  mkdir empire rebellion
+  935  ls
+  936  cd empire
+  937  ls
+  938  touch darth_vader.txt
+  939  nano darth_vader.txt
+  940  cat darth_vader.txt
+  941  ls
+  942  cd ..
+  943  ls
+  944  cd
+  945  ls
+  946  star wars
+  947  desktop
+  948  ls
+  949  GA
+  950  ls
+  951  unit1
+  952  week1
+  953  star_wars
+  954  ls
+  955  monday
+  956  ls
+  957  u1_star_wars_hw
+  958  ls
+  959  star_wars
+  960  ls
+  961  empire
+  962  ls
+  963  touch emperor_palpatine.txt
+  964  mkdir death_star
+  965  ls
+  966  mv darth_vader.txt death_star
+  967  ls
+  968  death_star
+  969  ls
+  970  cd ..
+  971  ls
+  972  cd ..
+  973  ls
+  974  cd ..
+  975  ls
+  976  git add.
+  977  git add .
+  978  git commit -m"act one complete from terminal"
   981  star_wars
   982  ls
   983  rebellion
