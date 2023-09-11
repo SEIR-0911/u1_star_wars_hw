@@ -1,0 +1,190 @@
+191  git clone https://github.com/darcystruble/u1_star_wars_hw.git
+  192  ls
+  193  cd u1_star_wars_hw
+  194  ls
+  195  code .
+  196  cd act1.sh
+  197  pwd
+  198  code .
+  199  cat act1.sh
+  200  mkdir star_wars
+  201  ls
+  202  cd star_wars
+  203  pwd
+  204  mkdir empire rebellion
+  205  ls
+  206  cd empire
+  207  pwd
+  208  touch darth_vador.txt
+  209  echo ...heavy breathing... >> darth_vador.txt
+  210  pwd
+  211  touch emperor_palpatine.txt
+  212  mkdir death_star
+  213  ls
+  214  mv darth_vador.txt death_star/
+  215  ls
+  216  cd death_star
+  217  ls
+  218  pwd
+  219  cd ../..
+  220  pwd
+  221  cd ..
+  222  pwd
+  223  git add .
+  224  git commit -m Act 1: added empire, death star, rebellion and characters Darth Vader and Emperor
+  225  git push
+  226  pwd
+  227  ls
+  228  star_wars
+  229  pwd
+  230  ls
+  231  cd ..
+  232  ls
+  233  pwd
+  234  cat act2.sh
+  235  ls
+  236  star_wars
+  237  ls
+  238  rebellion
+  239  ls
+  240  pwd
+  241  touch obi_wan.txt
+  242  ls
+  243  touch luke_skywalker.txt
+  244  ls
+  245  mkdir millenium_falcon
+  246  ls
+  247  cd millenium_falcon
+  248  pwd
+  249  touch han_solo.txt chewbacca.txt
+  250  ls
+  251  mv luke_skywalker.txt millenium_falcon/
+  252  ls
+  253  pwd
+  254  cd ..
+  255  pwd
+  256  ls
+  257  mv luke_skywalker.txt millenium_falcon/
+  258  ls
+  259  mv obi_wan.txt millenium_falcon/
+  260  ls
+  261  pwd
+  262  touch princess_leia.txt && echo Help me, Obi-Wan…
+  263  ls
+  264  mv princess_leia.txt millenium_falcon/
+  265  ls
+  266  echo Help me, Obi-Wan… princess_leia.txt
+  267  ls
+  268  cd millenium_falcon
+  269  ls
+  270  echo Help me, Obi-Wan… >> princess_leia.txt
+  271  ls
+  272  cd ..
+  273  ls
+  274  pwd
+  275  cd ..
+  276  pwd
+  277  ls
+  278  cd empire
+  279  ls
+  280  pwd
+  281  mv millenium_falcon death_star/
+  282  cd ..
+  283  ls
+  284  pwd
+  285  rebellion
+  286  ls
+  287  cd millenium_falcon
+  288  pwd
+  289  cd ../..
+  290  pwd
+  291  mv /rebellion/millenium_falcon/ empire/death_star/
+  292  ls
+  293  cd rebellion
+  294  ls
+  295  pwd
+  296  cd desktop/ga
+  297  ls
+  298  unit1
+  299  ls
+  300  week1
+  301  ls
+  302  monday
+  303  ls
+  304  cd u1_star_wars_hw
+  305  ls
+  306  star_wars
+  307  ls
+  308  rebellion
+  309  ls
+  310  pwd
+  311  cat act2.sh
+  312  cd ../..
+  313  ls
+  314  cat act2.sh
+  315  cd star_wars
+  316  ls
+  317  mv millenium_falcon death_star
+  318  pwd
+  319  mv rebellion/millenium_falcon empire/death_star
+  320  ls
+  321  empire
+  322  ls
+  323  death_star
+  324  ls
+  325  git add .
+  326  git commit -m Act 2: Added heroes, moved Millenium Falcon to Death Star
+  327  git push origin main
+  328  ls
+  329  cd ..
+  330  pwd
+  331  cd ..
+  332  pwd
+  333  cd ..
+  334  git add .
+  335  git commit -m Act 2: Updated, Millenium Falcon moved to Death Star with characters inside
+  336  git push origin main
+  337  pwd
+  338  ls
+  339  cat act3.sh
+  340  cd star_wars/empire/death_star
+  341  pwd
+  342  ls
+  343  mv millenium_falcon/* death_star
+  344  cd ..
+  345  pwd
+  346  mv death_star/millenium_falcon/* death_star
+  347  ls
+  348  death_star
+  349  ls
+  350  rm obi_wan.txt
+  351  ls
+  352  mv han_solo.txt chewbacca.txt luke_skywalker.txt princess_leia.txt millenium_falcon/
+  353  ls
+  354  millenium_falcon
+  355  ls
+  356  pwd
+  357  cd ../..
+  358  pwd
+  359  cd ..
+  360  pwd
+  361  mv empire/death_star/darth_vador.txt empire/
+  362  ls
+  363  empire
+  364  pwd
+  365  ls
+  366  cd ..
+  367  ls
+  368  pwd
+  369  mv empire/death_star/millenium_falcon rebellion
+  370  rmdir death_star
+  371  rmdir empire/death_star
+  372  ls
+  373  empire
+  374  ls
+  375  pwd
+  376  cd ../..
+  377  pwd
+  378  git add .
+  379  git commit -m Act 3: Death Star is blown up, heroes escape, Darth moves back to empire
+  380  git push origin main
