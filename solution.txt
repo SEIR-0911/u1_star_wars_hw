@@ -1,55 +1,113 @@
-Act1
-git clone https://github.com/logankrieger317/u1_star_wars_hw.git
-  926  ls
-  927  u1_star_wars_hw
-  928  code .
-  929  mkdir star_wars
-  930  mkdir empire rebellion
-  931  ls
-  932  cd star_wars
-  933  ls
-  934  mkdir empire rebellion
-  935  ls
-  936  cd empire
-  937  ls
-  938  touch darth_vader.txt
-  939  nano darth_vader.txt
-  940  cat darth_vader.txt
-  941  ls
-  942  cd ..
-  943  ls
-  944  cd
-  945  ls
-  946  star wars
-  947  desktop
-  948  ls
-  949  GA
-  950  ls
-  951  unit1
-  952  week1
-  953  star_wars
-  954  ls
-  955  monday
-  956  ls
-  957  u1_star_wars_hw
-  958  ls
-  959  star_wars
-  960  ls
-  961  empire
-  962  ls
-  963  touch emperor_palpatine.txt
-  964  mkdir death_star
-  965  ls
-  966  mv darth_vader.txt death_star
-  967  ls
-  968  death_star
-  969  ls
-  970  cd ..
-  971  ls
-  972  cd ..
-  973  ls
-  974  cd ..
-  975  ls
-  976  git add.
-  977  git add .
-  978  git commit -m"act one complete from terminal"
+ls
+  981  star_wars
+  982  ls
+  983  rebellion
+  984  touch princess_leia.txt && echo "Help me, Obi-Wan..."
+  985  cat princess_leia.txt
+  986  echo "Help me, Obi-Wan..." > princess_leia.txt
+  987  cat princess_leia.txt
+  988  ls
+  989  touch obi_wan.txt
+  990  touch luke_skywalker.txt
+  991  ls
+  992  pwd
+  993  mkdir millenium_falcon
+  994  ls
+  995  millenium_falcon
+  996  ls
+  997  touch han_solo.txt chewbacca.txt
+  998  ls
+  999  cd ..
+ 1000  ls
+ 1001  mv luke_skywalker.txt millenium_falcon
+ 1002  mv obi_wan.txt millenium_falcon
+ 1003  mv princess_leia.txt millenium_falcon
+ 1004  ls
+ 1005  cd..
+ 1006  cd ..
+ 1007  ls
+ 1008  empire
+ 1009  ls
+ 1010  mv millenium falcon death_star
+ 1011  ls
+ 1012  cd ..
+ 1013  ls
+ 1014  empire
+ 1015  ls
+ 1016  death_star
+ 1017  ls
+ 1018  pwd
+ 1019  cd ..
+ 1020  ls
+ 1021  rebellion
+ 1022  ls
+ 1023  mv millenium_falcon /Users/logan/desktop/GA/unit1/week1/monday/u1_star_wars_hw/star_wars/empire/death_star
+ 1024  git add .
+ 1025  git commit -m"Act Two Complete"
+ 1026  git add .
+ 1027  git commit -m"Act Two Complete"
+ 1028  ls
+ 1029  cd ..
+ 1030  ls
+ 1031  star_wars
+ 1032  ls
+ 1033  empire
+ 1034  ls
+ 1035  death_star
+ 1036  ls
+ 1037  millenium_falcon
+ 1038  ls
+ 1039  cd ..
+ 1040  mv millenium_falcon/* death star
+ 1041  mv millenium_falcon/* death_star
+ 1042  ls
+ 1043  cd ..
+ 1044  mv millenium_falcon/* death_star
+ 1045  ls
+ 1046  death_star
+ 1047  ls
+ 1048  millenium_falcon
+ 1049  ls
+ 1050  cd ..
+ 1051  pwd
+ 1052  ls
+ 1053  millenium_falcon
+ 1054  ls
+ 1055  cd ..
+ 1056  mv millenium_falcon/* /Users/logan/desktop/GA/unit1/week1/monday/u1_star_wars_hw/star_wars/empire/death_star
+ 1057  ls
+ 1058  rm obi_wan.txt
+ 1059  ls
+ 1060  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+ 1061  ls
+ 1062  cd ..
+ 1063  ls
+ 1064  cd ..
+ 1065  ls
+ 1066  rebellion
+ 1067  pwd
+ 1068  cd ..
+ 1069  ls
+ 1070  empire
+ 1071  ls
+ 1072  death_star
+ 1073  l
+ 1074  ls
+ 1075  mv millenium_falcon /Users/logan/desktop/GA/unit1/week1/monday/u1_star_wars_hw/star_wars/rebellion
+ 1076  ls
+ 1077  cd ..
+ 1078  rebellion
+ 1079  ls
+ 1080  millenium_falcon
+ 1081  ls
+ 1082  cd ..
+ 1083  empire
+ 1084  pwd
+ 1085  death_star
+ 1086  ls
+ 1087  mv darth_vader.txt /Users/logan/desktop/GA/unit1/week1/monday/u1_star_wars_hw/star_wars/empire
+ 1088  cd ..
+ 1089  rm -r death_star
+ 1090  git add .
+ 1091  git commit -m"act 3 complete"
+ 1092  git push
