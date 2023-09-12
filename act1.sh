@@ -7,7 +7,7 @@ mkdir empire rebellion
 cd empire
 touch darth_vader.txt
 # 4. Use the force (or your echo) to add the text "...heavy breathing..." to the darth_vader.txt file (Don’t remember how to do this? Internet search it!)
-echo "...heavy breathing..."
+echo "...heavy breathing..." >> darth_vader.txt
 # 5. Inside the empire directory, create a file called emperor_palpatine.txt
 cd empire        touch _palpatine.txt
 # 6. Inside the empire directory, create a directory called death_star
