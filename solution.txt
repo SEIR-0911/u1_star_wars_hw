@@ -58,3 +58,8 @@ ACT 2:
   208  mv millenium_falcon death_star/
   209  cd ..
   210  mv millenium_falcon death_star/
+  211  history
+  212  git add .
+  213  git status
+  214  git add .
+  215  git commit -m "Star Wars HW Act 2 Edited"
