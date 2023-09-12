@@ -22,3 +22,39 @@ ACT 1:
   172  git add u1_star_wars_hw
   173  git add u1_star_wars_hw/
   174  git commit -m "Star Wars HW Act1 Edited"
+ACT 2:
+  176  cd star_wars/rebellion
+  177  cd star_wars
+  178  cd rebellion
+  179  ls
+  180  star_wars
+  181  cd..
+  182  cd ..
+  183  cd rebellion
+  184  touch princess_leia.txt && echo "Help me, Obi-wan...">princess_leia.txt
+  185  ls
+  186  touch obi_wan.txt
+  187  touch luke_skywalker
+  188  ls
+  189  rm lukeskywalker
+  190  rm luke_skywalker
+  191  touch luke_skywalker.txt
+  192  ls
+  193  mkdir millenium_falcon
+  194  cd millenium_falcon
+  195  touch han_solo.txt
+  196  rm han_solo.txt
+  197  touch han_solo.txt chewbacca.txt
+  198  ls
+  199  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon/
+  200  ls
+  201  mv luke_skywalker.txt obi_wan.txt princess_leia.txt
+  202  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /millenium_falcon/
+  203  mv mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  204  cd ..
+  205  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon/
+  206  millenium_falcon
+  207  ls
+  208  mv millenium_falcon death_star/
+  209  cd ..
+  210  mv millenium_falcon death_star/
