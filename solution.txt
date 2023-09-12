@@ -1,0 +1,225 @@
+ 364  ls
+  365  cd u1_star_wars_hw
+  366  ls
+  367  cd act1.sh
+  368  ls
+  369  act1.sh
+  370  pwd
+  371  cd act1.sh
+  372  ls
+  373  act1.sh
+  374  cd act1.sh
+  375  ls
+  376  act1.sh
+  377  ls
+  378  cd act1.sh
+  379  mkdir star_wars
+  380  ls
+  381  star_wars
+  382  mkdir empire rebellion
+  383  ls
+  384  empire
+  385  ls
+  386  touch darth_vader.txt
+  387  ls
+  388  cd darth_vader.txt
+  389  echo '...heavy breathing...'
+  390  ls
+  391  darth_vader.txt
+  392  ls
+  393  ls -a
+  394  echo '...heavy breathing...' darth_vader.txt
+  395  ls
+  396  nano darth_vader.txt
+  397  cd desktoo
+  398  cd desktop
+  399  ls
+  400  ga-se
+  401  ls
+  402  unit1
+  403  week1
+  404  monday
+  405  ls
+  406  u1_star_wars_hw
+  407  ls
+  408  star_wars
+  409  ls
+  410  empire
+  411  ls
+  412  echo -n "...heavy breathing..." | cat > darth_vader.txt
+  413  touch emperor_palpatine.txt
+  414  ls
+  415* pwd
+  416* ls
+  417* cd
+  418* ls
+  419* cd desktop
+  420* ls
+  421* ga-se
+  422* ls
+  423* unit1
+  424  ls
+  425  mkdir death_star
+  426  ls
+  427  mv darth_vader.txt death_star
+  428  ls
+  429  death_star
+  430  ls
+  431  cd ..
+  432  ls
+  433  rebellion
+  434  touch princess_leia.txt && echo -n "Help me, Obi-Wan..." | cat > princess_leia.txt
+  435  ls
+  436  touch obi_wan.txt
+  437  ls
+  438  touch luke_skywalker.txt
+  439  mkdir millenium_falcon
+  440  ls
+  441  millenium_falcon
+  442  ls
+  443  touch han_solo.txt chewbacca.txt
+  444  ls
+  445  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  446  ls
+  447  cd ..
+  448  ls
+  449  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  450  ls
+  451  millenium_falcon
+  452  ls
+  453  cd ..
+  454  ls
+  455  empire
+  456  ls
+  457  cd ..
+  458  ls
+  459  mv millenium_falcon empire/death_star
+  460  mv millenium_falcon empire.death_star
+  461  mv millenium_falcon empire death_star
+  462  ls
+  463  empire
+  464  ls
+  465  death_star
+  466  cd..
+  467  cd ..
+  468  mv millenium_falcon empire
+  469  ls
+  470  rebellion
+  471  ls
+  472  mv millenium_falcon empire
+  473  ls
+  474  cd ..
+  475  ls
+  476  empire
+  477  ls
+  478  death_star
+  479  ls
+  480  cd ..
+  481  ls
+  482  rebellion
+  483  ls
+  484  empire
+  485  ls
+  486  mkdir millenium_falcon
+  487  ls
+  488  cd ..
+  489  ls
+  490  mkdir millenium_falcon
+  491  cd ..
+  492  ls
+  493  rebellion
+  494  ls
+  495  cd ..
+  496  ls
+  497  rebellion
+  498  ls
+  499  cd ..
+  500  rebellion
+  501  mv millenium_falcon star_wars
+  502  cd ..
+  503  ls
+  504  rebellion
+  505  ls
+  506  cd ..
+  507  mv millenium_falcon star_wars
+  508  rebellion
+  509  mv ~/rebellion/millenium_falcon/ ~/star_wars/
+  510  cd ..
+  511  mv ~/star_wars/rebellion/millenium_falcon/ ~/star_wars/
+  512  pwd
+  513  rebellion
+  514  ls
+  515  mv millenium_falcon/ star_wars/
+  516  ls
+  517  mv millenium_falcon/ ../millenium_falcon/
+  518  mv millenium_falcon/ empire/
+  519  mv millenium_falcon/ empire/millenium_falcon/
+  520  mv millenium_falcon empire
+  521  mv millenium_falcon/ empire/
+  522  cd ..
+  523  mv millenium_falcon/ empire/
+  524  empire
+  525  mv millenium_falcon/ death_star/
+  526  ls
+  527  cd ..
+  528  ls
+  529  rebellion
+  530  mkdir mf
+  531  mv mf/ ../empire/death_star/
+  532  ls
+  533  cd ..
+  534  ls
+  535  rebellion
+  536  ls
+  537  cd ..
+  538  empire
+  539  ls
+  540  death_star
+  541  ls
+  542  mv millenium_falcon/* death_star/
+  543  cd..
+  544  cd ..
+  545  millenium_falcon
+  546  ls
+  547  death_star
+  548  ls
+  549  millenium_falcon
+  550  ls
+  551  mv * ../
+  552  cd ..
+  553  ls
+  554  rm obi_wan.txt
+  555  ls
+  556  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  557  ls
+  558  mv millenium_falcon/ ../../rebellion/
+  559  ls
+  560  mv darth_vader.txt/ ../
+  561  cd ..
+  562  mv darth_vader ../
+  563  mv darth_vader empire
+  564  mv darth_vader.txt empire
+  565  death_star
+  566  cd ..
+  567  mv death_star/darth_vader.txt ../
+  568  mv darth_vader.txt empire/death_star
+  569  cd ..
+  570  mv darth_vader.txt empire/death_star
+  571  ls
+  572  empire
+  573  ls
+  574  death_star
+  575  ls
+  576  cd ..
+  577  ls
+  578  empire
+  579  ls
+  580  death
+  581  death_star
+  582  mv darth_vader.txt ../
+  583  cd ..
+  584  ls
+  585  rm death_star
+  586  rm -r death_star
+  587  ls
+  588  cd ..
