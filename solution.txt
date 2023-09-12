@@ -63,3 +63,9 @@ ACT 2:
   213  git status
   214  git add .
   215  git commit -m "Star Wars HW Act 2 Edited"
+Act 3
+  298  mv millenium_falcon/* /empire/death_star/
+  299  mv death_star/!(darth_vader) millenium_falcon/
+  300  mv millenium_falcon star_wars/rebellion
+  301  mv darth_vader empire/
+  302  rm death_star
