@@ -1,0 +1,283 @@
+Last login: Tue Sep 12 00:27:33 on ttys000
+➜  ~ pwd
+/Users/marlenerayas
+➜  ~ ls
+Desktop   Downloads Library   Music     Public
+Documents GA-Blog   Movies    Pictures
+➜  ~ cd desktop
+➜  desktop ls
+ls: .: Operation not permitted
+➜  desktop ls
+ls: .: Operation not permitted
+➜  desktop cd star_wars
+➜  star_wars ls
+empire    rebellion
+➜  star_wars cd empire
+➜  empire ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire cd ..
+➜  star_wars cd rebellion
+➜  rebellion ls
+death_star
+➜  rebellion ls
+death_star
+➜  rebellion cd ..
+➜  star_wars ls -a
+.         ..        .DS_Store empire    rebellion
+➜  star_wars cd empire
+➜  empire ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire cd death_star
+➜  death_star 
+➜  death_star history | tail -n 250
+  248  cd sei unit2
+  249  cd unit2
+  250  cd sei
+  251  pwd
+  252  ls
+  253  cd desktop
+  254  cd sei unit2
+  255  cd sei
+  256  cd unit2
+  257  cd unit1
+  258  cd sei
+  259  cd..
+  260  cd-
+  261  cd desktop
+  262  pwd
+  263  ls
+  264  cd desktop
+  265  ce sei
+  266  cd sei
+  267  cd unit1
+  268  touch lessons/{cli_into,git_intro,html,css}md
+  269  touch/{cli_into,git_intro,html,css}md
+  270  cd week1
+  271  touch lessons/{cli_into,git_intro,html,css}md
+  272  pwd
+  273  touch cli_intro.md
+  274  touch git_intro.md
+  275  touch html.md
+  276  touch css.md
+  277  ls
+  278  touch/{clii_intro,gitt_intro,html,css}md
+  279  ls
+  280  brew -v
+  281  pwd
+  282  ls
+  283  cd desktop
+  284  ls
+  285  cd sei
+  286  ls
+  287  pwd
+  288  ls
+  289  cd desktop
+  290  mkdir act2.sh
+  291  mddir act1.sh
+  292  mkdir act1.sh
+  293  mkdir act3sh
+  294  cd act1.sh
+  295  mkdir star_wars
+  296  cd star_wars
+  297  empire
+  298  mkdir empire
+  299  mkdir rebellion
+  300  cd empire
+  301  tooch darth_vader.txt
+  302  touch darth_vader.txt
+  303  cd darth_vader
+  304  cd darth_vader.txt
+  305  echo "...Heavy breathing..." >> darth_vater.txt
+  306  touch emperor_palpatine.txt
+  307  mkdir death_star
+  308  ~/empire/darth_vader.txt ~/dearth_star
+  309  pwd
+  310  ls
+  311  cd desktop
+  312  ls
+  313  pwd
+  314  ls
+  315  ls -a
+  316  cd desktop
+  317  ls
+  318  pwd
+  319  cd Desktop
+  320  pwd
+  321  ls
+  322  cd desktop
+  323  ls
+  324  ls -a
+  325  cd GA-Blog
+  326  ls
+  327  cd desktop
+  328  pwd
+  329  ls
+  330  cd public
+  331  ls
+  332  cd music
+  333  cd library
+  334  pwd
+  335  cd ..
+  336  cd /
+  337  cd marlenerayas
+  338  cd /
+  339  pwd
+  340  ls
+  341  cd desktop
+  342  ls
+  343  ls -a
+  344  pwd
+  345  ls
+  346  cd desktop
+  347  ls
+  348  rmdir act1.sh
+  349  rm act1.sh
+  350  rmdir act1sh
+  351  pwd
+  352  ls
+  353  cd desktop
+  354  mkdir star_wars
+  355  cd star_wars
+  356  mkdir empire
+  357  mkdir rebellion
+  358  cd empire
+  359  touch darth_vader.txt
+  360  cd darth_vader.txt
+  361  echo "...Heavy breathing..." >> darth_vader.txt
+  362  touch emperor_palpatine.txt
+  363  mkdir death_star
+  364  mv darth_vader.txt~/death_star/
+  365  mv~/empire/darth_vader.txt~/death_star/darth_vader/
+  366  mv ~/empire/darth_vader.txt ~/death_star/
+  367  ls
+  368  mv ~/darth_vader.txt ~/death_star/
+  369  mv ~/star_wars/empire/darth_vader.txt ~/star_wars/empire/deat_star/darth.vader.txt/
+  370  cd stars_wars
+  371  pwd
+  372  ls
+  373  cd desktop
+  374  cd star_wars
+  375  cd rebellion
+  376  touch princess_leia.txt && echo "help me, obi-wan"
+  377  echo help me, obi-wan!
+  378  echo help me,obi-wan >>princess.leia.txt
+  379  pwd
+  380  ls
+  381  cd desktop
+  382  ls
+  383  pwd
+  384  ls
+  385  cd desktop
+  386  ls
+  387  cd start-wars
+  388  cd stars_wars
+  389  pwd
+  390  ls
+  391  cd desktop
+  392  ls
+  393  ls -a
+  394  clear
+  395  cd star_wars
+  396  cd rebellion
+  397  touch obi_wan.txt
+  398  touch luke_skywalker.txt
+  399  mkdir millenium_falcon
+  400  cd millenium_falcon
+  401  touch han_solo.txt chewbaca.txt
+  402  cd rebellion
+  403  cd ..
+  404  mv luke_skywalker.txt obi_wan.txt, princess_leia.txt ~/millenium _falcon/
+  405  cd ..
+  406  cd millenium_falcon
+  407  cd rebellion
+  408  cd millenium falcon
+  409  cd millenium_falcon
+  410  ls
+  411  cd ..
+  412  mv * millenuim_falcom
+  413  cd ..
+  414  cd millenium_falcon
+  415  cd rebellion
+  416  cd millenium_falcon
+  417  ls
+  418  cd ..
+  419  mv *millenium_falcon
+  420  mv * millenium_falcon
+  421  mv ~/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon/
+  422  cd ..
+  423  cd millenium_falcon
+  424  ls
+  425  cd rebellion
+  426  ls
+  427  cd millenium_falcon
+  428  ls
+  429  mv death_star
+  430  ls
+  431  pwd
+  432  ls
+  433  cd desktop
+  434  ls
+  435  ls -a
+  436  ls
+  437  ld
+  438  ls
+  439  cd ..
+  440  ls
+  441  cd desktop
+  442  ls
+  443  cs ..
+  444  cd ..
+  445  ls
+  446  cd Desktop
+  447  ls
+  448  cs ..
+  449  cd ..
+  450  ls
+  451  pwd
+  452  cd
+  453  ls
+  454  cd desktop
+  455  ls
+  456  cd stars_wars
+  457  cd Desktop
+  458  pwd
+  459  ls
+  460  cd Desktop
+  461  cd ..
+  462  ls
+  463  cd stars_wars
+  464  cd desktop
+  465  cd star_wars
+  466  cd rebellion
+  467  mv ~/millenium_falcon ~/empire/death_star/
+  468  mv millenium_falcon ~/empire/death_star/
+  469  mv ~/star_wars/rebellion/millenium_falcon ~/star_wars/empire/death_star/
+  470  cd ..
+  471  cd empire
+  472  ls
+  473  cd ..
+  474  ls
+  475  cd rebellion
+  476  mv millenium_falcon death_star
+  477  cd ..
+  478  cd empire
+  479  cd death_star
+  480  ls
+  481  cd ..
+  482  pwd
+  483  ls
+  484  cd desktop
+  485  ls
+  486  cd star_wars
+  487  ls
+  488  cd empire
+  489  ls
+  490  cd ..
+  491  cd rebellion
+  492  ls
+  493  cd ..
+  494  ls -a
+  495  cd empire
+  496  ls
+  497  cd death_star
+➜  death_star 
