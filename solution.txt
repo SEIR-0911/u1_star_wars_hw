@@ -1,0 +1,33 @@
+656  git rm ../.DS_Store
+  657  git add ../act3.sh
+  658  git add empire/death_star/darth_vader.txt
+  659  git status
+  660  git rm empire/death_star/millenium_falcon/chewbacca.txt
+  661  git status
+  662  git rm empire/death_star/millenium_falcon/han_solo.txt
+  663  git rm empire/death_star/millenium_falcon/luke_skywalker.txt
+  664  git rm empire/death_star/millenium_falcon/obi_wan.txt
+  665  git rm empire/death_star/millenium_falcon/princess_leia.txt
+  666  git status
+  667  git add empire/darth_vader.txt\n
+  668  git add rebellion/millenium_falcon/
+  669  git status
+  670  git commit -m "Star Wars HW Act3"
+  671  git push origin main
+shaw@stevens-mini star_wars % history | tail -n 250
+  657  git add ../act3.sh
+  658  git add empire/death_star/darth_vader.txt
+  659  git status
+  660  git rm empire/death_star/millenium_falcon/chewbacca.txt
+  661  git status
+  662  git rm empire/death_star/millenium_falcon/han_solo.txt
+  663  git rm empire/death_star/millenium_falcon/luke_skywalker.txt
+  664  git rm empire/death_star/millenium_falcon/obi_wan.txt
+  665  git rm empire/death_star/millenium_falcon/princess_leia.txt
+  666  git status
+  667  git add empire/darth_vader.txt\n
+  668  git add rebellion/millenium_falcon/
+  669  git status
+  670  git commit -m "Star Wars HW Act3"
+  671  git push origin main
+  672  history
