@@ -1,0 +1,168 @@
+342  git clone https://github.com/rhysrfrazier/u1_star_wars_hw.git
+  343  ls
+  344  rm -r desktop/u1_star_wars_hw
+  345  rm -r u1_star_wars_hw
+  346  sudo rm -r u1_star_wars_hw
+  347  ls
+  348  desktop
+  349  GA
+  350  ls
+  351  Unit_1
+  352  Week_1
+  353  Monday
+  354  git clone https://github.com/rhysrfrazier/u1_star_wars_hw.git
+  355  ls
+  356  u1_star_wars_hw
+  357  code .
+  358  ls
+  359  act1.sh
+  360  cd act1.sh
+  361  mkdir star_wars
+  362  star_wars
+  363  mkdir empire rebellion
+  364  ls
+  365  empire
+  366  touch dearth_vader.txt
+  367  echo '...heavy breathing...'
+  368  pwd
+  369  rm dearth_vader.txt
+  370  ls
+  371  touch darth_vader.txt
+  372  ls
+  373  echo '...heavy breathing...' > darth_vader.txt
+  374  cat darth_vader.txt
+  375  pwd
+  376  touch emperor_palpatine.txt
+  377  mkdir death_star
+  378  ls
+  379  mv darth_vader.txt death_star
+  380  ls
+  381  death_star
+  382  ls
+  383  ..
+  384  ls
+  385  act2.sh
+  386  git add act1.sh
+  387  git commit .
+  388  git status
+  389  git push
+  390  git restore act1.sh
+  391  pwd
+  392  ls
+  393  open act1.sh
+  394  git log
+  395  git add .
+  396  git commit -m 'actually for real updated with the terminal commands in the act1 file'
+  397  git push
+  398  clear
+  399  pwd
+  400  ls
+  401  star_wars
+  402  ls
+  403  rebellion
+  404  touch princess_leia.txt && echo 'Help me, Obi-Wan...' > princess_leia.txt
+  405  cat princes_leia.txt
+  406  pwd
+  407  ls
+  408  cat princess_leia.txt
+  409  pwd
+  410  touch obi_wan.txt
+  411  toch luke_skywalker.txt
+  412  touch luke_skywalker.txt
+  413  ls
+  414  mkdir millenium_falcon
+  415  millenium_falcon
+  416  touch han_solo.txt chewbacca.txt
+  417  ls
+  418  cd ..
+  419  mv luke_skywalker.txt millenium_falcon
+  420  mv obi_wan.txt millenium_falcon
+  421  mv princess_leia millenium_falcon
+  422  mv princess_leia.txt millenium_falcon
+  423  ls
+  424  millenium falcon
+  425  millenium_falcon
+  426  ls
+  427  cd ..
+  428  ls
+  429  mv rebellion/millenium_falcon empire/death_star
+  430  ls
+  431  empire
+  432  ls
+  433  death_star
+  434  ls
+  435  git add .
+  436  git status
+  437  git add .
+  438  git status
+  439  ..
+  440  git add .
+  441  git status
+  442  git commit -'in which the rebellion gets together and drives the millenium falcon to the death star, with updated act2 file'
+  443  git status
+  444  git commit -m 'in which the rebellion get together and drive to the death star'
+  445  git push
+  446  ls
+  447  star_wars
+  448  ls
+  449  empire
+  450  ls
+  451  death_star
+  452  ls
+  453  mv millenium_falcon/* death_star
+  454  ..
+  455  mv death_star/millenium_falcon/* death_star 
+  456  death_star
+  457  ls
+  458  rm obi_wan.txt
+  459  ls
+  460  mv chewbacca.txt millenium_falcon && mv han_solo.txt millenium_falcon && mv princess_leia.txt millenium_falcon && mv luke_skywalker.txt millenium_falcon
+  461  ls
+  462  millenium falcon ls
+  463  millenium_falcon ls
+  464  millenium_falcon
+  465  ls
+  466  ..
+  467  ls
+  468  mv empire/death_star/millenium_falcon rebellion
+  469  ls
+  470  rebellion
+  471  ls
+  472  cd
+  473  ..
+  474  pwd
+  475  ls
+  476  rhysfrazier
+  477  ls
+  478  desktop
+  479  ls
+  480  GA
+  481  ls
+  482  Unit_1
+  483  ls
+  484  Week_1/Monday
+  485  ls
+  486  u1_star_wars_hw
+  487  ls
+  488  star_wars
+  489  ls
+  490  empire
+  491  ls
+  492  mv death_star/darth_vader.txt empire
+  493  ls
+  494  empire
+  495  pwd
+  496  ls
+  497  death_star
+  498  ls
+  499  ..
+  500  ls
+  501  mv empire darth_vader.txt
+  502  ls
+  503  rmdir death_star
+  504  ls
+  505  ..
+  506  git add .
+  507  git status
+  508  git commit -m 'obi-wan and the death star are both dead and vader had an identity crisis for a second'
+  509  git push
