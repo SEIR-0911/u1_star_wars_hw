@@ -1,0 +1,20 @@
+  133  mkdir star_wars
+  134  mkdir -p star_wars/empire star_wars/rebellion
+  135  touch star_wars/empire/darth_vader.txt
+  136  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  137  touch star_wars/empire/emperor_palpatine.txt
+  138  mkdir -p star_wars/empire/death_star
+  139  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star/
+  140  echo "Help me, Obi-Wan…" > star_wars/rebellion/princess_leia.txt
+  141  touch star_wars/rebellion/obi_wan.txt
+  142  touch star_wars/rebellion/luke_skywalker.txt
+  143  mkdir -p star_wars/rebellion/millenium_falcon
+  144  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  145  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/obi_wan.txt star_wars/rebellion/princess_leia.txt star_wars/rebellion/millenium_falcon/
+  146  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star/
+  147  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star/
+  148  rm star_wars/empire/death_star/obi_wan.txt
+  149  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon/
+  150  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion/
+  151  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire/
+  152  rm -rf star_wars/empire/death_star/
