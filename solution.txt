@@ -1,0 +1,110 @@
+   59  git clone https://github.com/jtfrostyboy/u1_star_wars_hw.git
+   60  ls
+   61  cd ul_star_wars_hw
+   62  cd u1_star_wars_hw
+   63  code .
+   64  mkdir star_wars
+   65  ls
+   66  cd star_wars
+   67  mkdir empire rebellion
+   68  ls
+   69  cd empire
+   70  touch darth_vader.txt
+   71  ls
+   72  echo "...heavy breathing..." >> darth_vader.txt
+   73  cat darth_vader.txt
+   74  touch emperor_palpatine.txt
+   75  ls
+   76* pwd
+   77* explorer.exe .
+   78  mkdir death_star
+   79  mv darth_vader.txt /death_star
+   80  mv darth_vader.txt /empire/death_star
+   81  ls
+   82  mv darth_vader.txt death_star
+   83  cd death_star
+   84  ls
+   85  cd ..
+   86  cd .
+   87  ls
+   88  cd rebellion
+   89  cd ..
+   90  cd rebellion
+   91  touch princess_leia.txt && -a "Help me, Obi-Wan…"
+   92  ls
+   93  rm princess_leia.txt
+   94  ls
+   95  touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt
+   96  ls
+   97  cat princess_leia.txt
+   98  touch obi_wan.txt
+   99  ls
+  100  touch luke_skywalker
+  101  ls
+  102  rm luke_skywalker
+  103  touhc luke_skywalker.txt
+  104  touch luke_skywalker.txt
+  105  ls
+  106  mkdir millenium_falcon
+  107  ls
+  108  cd millenium_falcon
+  109  touch han_solo.txt chewbacca.txt
+  110  ls
+  111  cd ..
+  112  ls
+  113  mv obi_wan.txt princess_leia.txt luke_skywalker.txt millenium_falcon
+  114  cd millenium_falcon
+  115  ls
+  116  cd ..
+  117  mv millenium_falcon /star_wars/empire/death_star
+  118  mv millenium_falcon star_wars/empire/death_star
+  119  mv millenium_falcon ~star_wars/empire/death_star
+  120  mv millenium_falcon ~/star_wars/empire/death_star
+  121* explorer.exe .
+  122  mv millenium_falcon ~/GA/Unit_1/Week_1/Monday/u1_star_wars_hw/star_wars/empire/death_star
+  123  cd ..
+  124  cd empire
+  125  cd death_star
+  126  ls
+  127  cd millenium_falcon
+  128  ls
+  129  clear
+  130  cd ..
+  131  mv millenium_falcon/*
+  132  mv millenium_falcon/* .
+  133  ls
+  134  cd millenium_falcon
+  135  ls
+  136  cd ..
+  137  rm obi_wan.txt
+  138  ls
+  139  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  140  cd millenium_falcon
+  141  ls
+  142  cd ..
+  143  mv millenium_falcon ~/GA/Unit_1/Week_1/Monday/u1_star_wars_hw/star_wars/rebellion
+  144  cd ..
+  145  cd rebellion
+  146  ls
+  147  cd ..
+  148  cd empire
+  149  ls
+  150  cd death_star
+  151  ls
+  152  mv darth_vader.txt .
+  153  mv darth_vader.txt empire
+  154  cd ..
+  155  ls
+  156  cd death_star
+  157  ls
+  158  cd empire
+  159  cat empire
+  160  rm empire
+  161  ls
+  162  echo "...heavy breathing..." >> darth_vader.txt
+  163  ls
+  164  cd ..
+  165  mv death_star/* .
+  166  ls
+  167  rmdir death_star
+  168  ls
