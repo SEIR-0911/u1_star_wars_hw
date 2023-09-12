@@ -1,0 +1,136 @@
+mkdir empire rebellion
+  666  ls
+  667  cd empire
+  668  touch darth_vader.txt
+  669  ls
+  670  cd darth_vader.txt
+  671  vi darth_vader.txt
+  672  touch emperor_palpatine.txt
+  673  ls
+  674  mkdir death_star
+  675  ls
+  676  pwd
+  677  mv darth_vader.txt /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/empire/death_star
+  678  ls
+  679  cd death_star
+  680  ls
+  681  git add .
+  682  git commit -m "act 1 commit"
+  683  git push origin main
+  684* exit
+  685  git status
+  686  git add .
+  687  cd ..
+  688  ls
+  689  cd ..
+  690  git add .
+  691  git commit -m "emperor commit"
+  692  git push origin main
+  693  git status
+  694  cd ..
+  695  ls
+  696  git add .
+  697  git commit -m "missed act1"
+  698  git push origin main
+  699  git log
+  700  clear
+  701  pwd
+  702  ls
+  703  cd star_wars/rebellion
+  704  touch princess_leia.txt && echo "Help me, Obi-Wan…"
+  705  ls
+  706  cat princess_leia.txt
+  707  vi princess_leia.txt
+  708  cat princess_leia.txt
+  709  touch obi_wan.txt
+  710  touch luke_skywalker.txt
+  711  mkdir millenium_falcon
+  712  cd millenium_falcon
+  713  touch han_solo.txt chewbacca.tx
+  714  ls
+  715  cd ..
+  716  cd  millenium_falcon
+  717  pwd
+  718  cd ..
+  719  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/rebellion/millenium_falcon
+  720  cd millenium_falcon
+  721  ls
+  722  cd ..
+  723  ls
+  724  cd rebellion
+  725  ls
+  726  cd ..
+  727  cd empire
+  728  ls
+  729  cd death_star
+  730  pwd
+  731  cd ..
+  732  cd
+  733  cd development/ga/unit1/u1_star_wars_hw/star_wars
+  734  ls
+  735  cd rebellion
+  736  mv millenium_falcon /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/empire/death_star
+  737  cd ..
+  738  cd u1_star_wars_hw
+  739  git add .
+  740  git commit -m "act 2 commit"
+  741  git push origin main
+  742  cd star_wars/empire/death_star/
+  743  ls
+  744  pwd
+  745  cd millenium_falcon
+  746  ls
+  747  cd ..
+  748  mv millenium_falcon * /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/empire/death_star
+  749  ls
+  750  cd mil
+  751  cd millenium_falcon
+  752  mv * /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/empire/death_star
+  753  ls
+  754  cd ..
+  755  ls
+  756  rm obi_wan.txt
+  757  cd millenium_falcon
+  758  pwd
+  759  cd ..
+  760  mv chewbacca.tx han_solo.txt luke_skywalker.txt princess_leia.txt /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/empire/death_star/millenium_falcon
+  761  ls
+  762  cd millenium_falcon
+  763  ls
+  764  cd ..
+  765  ls
+  766  cd rebellion
+  767  pwd
+  768  cd ..
+  769  cd empire
+  770  ls
+  771  cd death_star
+  772  ls
+  773  mv millenium_falcon /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/rebellion
+  774  ls
+  775  cd ..
+  776  ls
+  777  cd rebellion
+  778  ls
+  779  cd ..
+  780  cd empire
+  781  cd death_star
+  782  ls
+  783  mv darth_vader.txt mv millenium_falcon /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/empire
+  784  cd ..
+  785  pwd
+  786  cd ..
+  787  cd em
+  788  cd empire
+  789  ls
+  790  mv darth_vader.txt /home/sage/development/ga/unit1/u1_star_wars_hw/star_wars/empire
+  791  ls
+  792  rm death_star
+  793  rmdir death_star
+  794  ls
+  795  cd ..
+  796  git add .
+  797  git commit -m "act3 commit"
+  798  git oush orgin main
+  799  git push orgin main
+  800  git push origin main
