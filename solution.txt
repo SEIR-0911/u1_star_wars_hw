@@ -243,6 +243,7 @@
   513  ls rebellion
   514  rm -r empire/death_star
   515  ls empire
+# Chewbacca missed the whole episode starting at line 463 :(
   516  mv chewbacca.txt rebellion/millenium_falcon/
   517  git add .
   518  git commit -m "act3 commit"
