@@ -1,0 +1,104 @@
+  415  clear
+  416  cd u1_star_wars_hw
+  417  ls
+  418  cd star_wars
+  419  ls
+  420  cd empire
+  421  ls
+  422  git mv death_star/millenium_falcon/chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess.leia.txt death_star
+  423  cd empire
+  424  ls
+  425  cd death_star
+  426  ls
+  427  cd millenium_falcon
+  428  ls
+  429  git mv */*
+  430  ls
+  431  cd ..
+  432  git mv millenium_falcon/chebacca.txt death_star
+  433  cd ..
+  434  git mv death_star/millenium_falcon/chewbacca.txt death_star
+  435  git mv death_star/millenium_falcon/chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star
+  436  git add .
+  437  git config --global core.autocrlf false
+  438  ls
+  439  git mv death_star/millenium_falcon/chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star
+  440  git mv -t death_star chewbacca.txt han_solo.txt
+  441  cd empire
+  442  ls
+  443  cd death_star
+  444  ls
+  445  cd millenium_falcon
+  446  ls
+  447  git mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star
+  448  cd ..
+  449  cd .. empire
+  450  cd ..
+  451  ls
+  452  mv death_star/millenium_falcon/chewbacca.txt death_star
+  453  mv death_star/millenium_falcon/han_solo.txt luke_skywalker.txt death_star
+  454  mv death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt
+  455  mv death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt death_star
+  456  mv obi_wan.txt princess_leia.txt death_star
+  457  mv obi_wan.txt death_star/
+  458  empire
+  459  cd empire
+  460  ls
+  461  cd death_star
+  462  ls
+  463  cd millenium_falcon
+  464  ls
+  465  mv obi_wan.txt princess_leia.txt death_star/
+  466  ls
+  467  mv obi_wan.txt death_star
+  468  mv death_star obi_wan.txt
+  469  add .
+  470  git add .
+  471  touch obi_wan.txt
+  472  ls
+  473  ls
+  474  mv chewbacca.txt C:\Users\Dmitri Eliseev\Desktop\u1_star_wars_hw\star_wars\empire\death_star
+  475  mv chewbacca.txt star_wars\empire\death_star
+  476  mv star_warsempiredeath_star chewbacca.txt
+  477  mv chewbacca.txt star_wars/empire/death_star
+  478  mv chewbacca.txt star_wars/empire/death_star
+  479  mv han_solo.txt ../
+  480  cd ..
+  481  ls
+  482  mv han_solo.txt millenium_falconls
+  483  cd millenium_falcon
+  484  ls
+  485  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../
+  486  rm -r obi_wan.txt
+  487  cd ..
+  488  rm -r obi_wan.txt
+  489  ls
+  490  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess.leia.txt millenium_falcon
+  491  mv princess_leia.txt millenium falcon
+  492  mv princess_leia.txt millenium_falcon
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd ..
+  497  ls
+  498  mv empire/death_star/millenium_falcon rebellion
+  499  ls
+  500  empire
+  501  cd empire
+  502  ls
+  503  cd death_star
+  504  ls
+  505  mv darth_vader.txt ../
+  506  rm -r death_star
+  507  cd ..
+  508  rm -r death_star
+  509  git commit - add.
+  510  git add .
+  511  git commit -m "act3 complete"
+  512  git status
+  513  cd ..
+  514  add .
+  515  git add .
+  516  git status
+  517  git push origin main
+  518  history | tail -n 250
