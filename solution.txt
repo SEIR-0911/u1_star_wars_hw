@@ -1,0 +1,250 @@
+  221  ls -a
+  222  rmdir week1
+  223  rm -dir week1
+  224  ls -a
+  225  manrm
+  226  man rm
+  227  ls -a
+  228  cd unit1
+  229  ls
+  230  mkdir Week1/monday
+  231  ls -a
+  232  mkdir week1
+  233  cd week1
+  234  ls
+  235  ls -a
+  236  cd Monday
+  237  mkdir Monday
+  238  ls
+  239  cd ../.
+  240  cd ..
+  241  ls
+  242  pwd
+  243  cd unit1/week1.Monday
+  244  cd unit1/week1/Monday
+  245  ls -a
+  246  touch file.txt
+  247  cat file.txt
+  248  ls -a
+  249  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"~
+  250  cd ..
+  251  cd monday
+  252  ls
+  253  brew install zsh
+  254  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  255  ls
+  256  rm -rf star_wars
+  257  ls
+  258  ./act1.sh
+  259  ls
+  260  ./act1.sh
+  261  ./act2.sh
+  262  ls
+  263  ./act3.sh
+  264  rm -rf star_wars
+  265  ./act1.sh
+  266  ./act2.sh
+  267  ./act3.sh
+  268  ./act2.sh
+  269  ./act3.sh
+  270  rm -rf star_wars
+  271  ls
+  272  ./act1.sh
+  273  ./act2.sh
+  274  ./act3.sh
+  275  clear
+  276  rm -rf star_wars
+  277  ./act1.sh
+  278  ./act2.sh
+  279  mv star_wars/rebellion/millenium_falcon/* star_wars/empire/death_star
+  280  mv star_wars/rebellion/millenium_falcon/* star_wars/empire/death_star/
+  281  ls
+  282  cd star_wars
+  283  mv star_wars/rebellion/millenium_falcon/* star_wars/empire/death_star/
+  284  cd ..
+  285  clear
+  286  ls
+  287  mv star_wars/rebellion/millenium_falcon * star_wars/empire/death_star
+  288  rm -rf star_wars
+  289  ./act1.sh
+  290  ls
+  291  cd ..
+  292  ls
+  293  cd monday
+  294  ls
+  295  cd u1_star_wars_hw
+  296  ls
+  297  rm -rf u1_star_wars_hw
+  298  ls
+  299  git clone https://github.com/TechALynch/u1_star_wars_hw.git
+  300  ls
+  301  cd ..
+  302  ls
+  303  u1_star_wars_hw
+  304  ls
+  305  cd ..
+  306  rm -rf u1_star_wars_hw
+  307  ls
+  308  git clone https://github.com/TechALynch/u1_star_wars_hw.git
+  309  ls
+  310  u1_star_wars_hw
+  311  ls
+  312  ./act1.sh
+  313  ls
+  314  ./act1.sh
+  315  ./act2.sh
+  316  ls
+  317  mv star_wars/rebellion/millenium_falcon/* star_wars/empire/death_star/
+  318  mv star_wars/rebellion/millenium_falcon/\* star_wars/empire/death_star/\n
+  319  cd ..
+  320  cd.. 
+  321  ls
+  322  mkdir Wednesday
+  323  ls
+  324  cd wednesday
+  325  ls
+  326  touch script.js
+  327  ls
+  328  git clone https://github.com/TechALynch/u1_js_functions_and_scope.git
+  329  ls
+  330  node script.js
+  331  clear
+  332  node script.js
+  333  cd ..
+  334  ls
+  335  cd Monday
+  336  ls
+  337  cd u1_star_wars_hw
+  338  ls
+  339  ./act3.sh
+  340  cd ..
+  341  ls
+  342  cd ..
+  343  ls
+  344  cd Wedensday
+  345  ls
+  346  cd wednesday
+  347  la
+  348  ls
+  349  cd UNIT1
+  350  LS
+  351  CD WEEK1
+  352  LS
+  353  ls
+  354  cd week1
+  355  ls
+  356  cd monday
+  357  ls
+  358  cd u1_star_wars_hw
+  359  ls
+  360  ./act1.sh
+  361  ./act2.sh
+  362  ls
+  363  rm -r star_wars
+  364  ls
+  365  ./act1.sh
+  366  ./act2.sh
+  367  ls
+  368  ./act3.sh
+  369* node script.js
+  370* ls
+  371* node script.js
+  372* ls
+  373* node script.js
+  374  ./act3.sh
+  375  ls
+  376  ./act3.sh
+  377* ls
+  378* touch u1Lab1.js
+  379* ls
+  380* node u1Lab1.js
+  381  pwd
+  382  ls
+  383  cd star_wars
+  384  ls
+  385  cd ..
+  386  cd.. 
+  387  cd..
+  388  ls
+  389  /.act1.sh
+  390  cd star_wars
+  391  ls
+  392  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  393  ./act1.sh
+  394  ./act2.sh
+  395  ls
+  396  cd ..
+  397  ls
+  398  ./act1.sh
+  399  ls
+  400  cd ..
+  401  ls
+  402  cd u1_star_wars_hw
+  403  ls
+  404  rm -r star_wars
+  405  ls
+  406  ./act1.sh
+  407  ./act2.sh
+  408  ./act3.sh
+  409  mv star_wars/empire/death_star/millenium_falcon* star_wars/empire/death_star
+  410  clear
+  411  ./act3.sh
+  412* touch u1Lab1.js
+  413* node  u1Lab1.js
+  414* node script.js
+  415  ./act3.sh
+  416* node script.js
+  417  ls
+  418  cd star_wars
+  419  ls
+  420  mv empire/death_star/millenium_falcon/* empire/death_star
+  421  mv empire/death_star/millenium_falcon* empire/death_star
+  422  ./act3.sh
+  423  ls
+  424  ./act3.sh
+  425  ls
+  426  cd..
+  427  cd ..
+  428  ls
+  429  clear
+  430  ./act1.sh
+  431  clear
+  432  ls
+  433  rm -r star_wars
+  434  ls
+  435  ./act1.sh
+  436  ./act2.sh
+  437  ./act3.sh
+  438  clear
+  439  rm -r star_wars
+  440  ls
+  441  ./act1.sh
+  442  ./act2.sh
+  443  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  444  rm star_wars/empire/death_star/obi_wan.txt 
+  445  mv star_wars/empire/death_star/* star_wars/empire/death_star/millenium_falcon
+  446  rm -r star_wars
+  447  ./act1.sh
+  448  ./act2.sh
+  449  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  450  rm star_wars/empire/death_star/obi_wan.txt 
+  451  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/millenium_falcon
+  452  mv star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/millenium_falcon
+  453  mv star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/millenium_falcon
+  454  mv star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon
+  455  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  456  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire 
+  457  rm -r star_wars/empire/death_star 
+  458  ./act1.sh
+  459  ./act2.sh
+  460  ./act3.sh
+  461  ./act1.sh
+  462  ./act2.sh
+  463  ./act3.sh
+  464  git add.
+  465  git add .
+  466  git commit -m SolutionAct123
+  467  clear
+  468  ./act1.sh
+  469  ./act2.sh
+  470  ./act3.sh
