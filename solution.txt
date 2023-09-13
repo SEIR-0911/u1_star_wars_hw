@@ -1,0 +1,16 @@
+  247  cd u1_hw_cyoa
+  248  git add .
+  249  git commit -m "Simeal Woldu"
+  250  git push
+  251  ls
+  252  cd ..
+  253  cd ..
+  254  ls
+  255  starwars
+  256  cd starwars
+  257  history | tail -n 250
+  258  history
+  259  ls
+  260  cd u1_star_wars_hw
+  261  history
+  262  ls
