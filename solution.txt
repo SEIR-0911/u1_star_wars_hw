@@ -1,3 +1,31 @@
+  105  git clone https://github.com/JoshHutchison/u1_star_wars_hw.git
+  106  ls
+  107  cd u1_star_wars_hw
+  108  code .
+  109  ls
+  110  ./act1.sh
+  111  git add .
+  112  git commit -m "act 1 complete"
+  113  git push
+  114  ./act2.sh
+  115  history
+  116  git add .
+  117  git commit -m "act 2 complete"
+  118  git push
+  119  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star/
+  120  rm star_wars/empire/death_star/obi_wan.txt
+  121  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/hansolo.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon/
+  122  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon/
+  123  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion/
+  124  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire/
+  125  rm -rf star_wars/empire/death_star/
+  126  git add .
+  127  git commit -m "act 3 complete"
+  128  git push
+  129  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star/
+  130  rm star_wars/empire/death_star/obi_wan.txt
+  131  echo
+  132  pwd
   133  mkdir star_wars
   134  mkdir -p star_wars/empire star_wars/rebellion
   135  touch star_wars/empire/darth_vader.txt
@@ -18,3 +46,9 @@
   150  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion/
   151  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire/
   152  rm -rf star_wars/empire/death_star/
+  153  touch solutions.txt
+  154  history
+  155  git add solutions.txt
+  156  git add solution.txt 
+  157  git commit -m "added solution.txt"
+  158  git push
