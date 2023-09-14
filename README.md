@@ -29,12 +29,41 @@ Working with the terminal command line is a key skill to develop as a programmer
 * In this act, we will introduce the star wars universe with the Rebellion, Empire, Death Star, Darth Vader, and Emperor Palpatine!
 * At the end of `act1.sh`, your file tree should look like this:
 
+   # 1. In this directory, create a new directory called star_wars. Example             answer: mkdir star_wars
+   --mkdir star_wars
+   # 2. In the star_wars folder, create two new directories: empire and rebellion    (This can be done in two commands, but       how would you do it in one?)
+    --mkdir empire rebellion
+   # 3. Inside the empire directory, create a file called darth_vader.txt 
+   --touch darth_vader.txt
+   # 4. Use the force (or your echo) to add the text "...heavy breathing..." to       the    darth_vader.txt file (Don’t          remember how to do this? Internet search it!)
+   --echo "...heavy breathing..." >> darth_vader.txt
+   # 5. Inside the empire directory, create a file called emperor_palpatine.txt
+   --touch emperor_palpatine.txt
+   # 6. Inside the empire directory, create a directory called death_star
+   --mkdir death_star
+   # 7. Move darth_vader.txt into the death_star
+   --mv darth_vader.txt ./death_star
 <img height=200 src="https://res.cloudinary.com/ahonore42/image/upload/v1611102583/ga/act1.png" alt="act1" />
 
 ## Act 2
 * We are introduced to our heroes!
 * After Princess Leia calls on Obi-Wan for help, Han Solo, Chewbacca, Luke Skywalker, and Obi-Wan join forces and fly to the Death Star on the Millenium Falcon to rescue her from Darth Vader
 * At the end of `act2.sh` your file tree should look like this:
+
+   # 1. Inside the `star_wars/rebellion` directory, (IN ONE COMMAND using &&)          create a file called princess_leia.txt       with the text "Help me, Obi-Wan…"
+   --touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+   # 2. Create a file called obi_wan.txt in star_wars/rebellion
+   --touch obi_wan.txt
+   # 3. Create a file in star_wars/rebellion called luke_skywalker.txt
+   --touch luke_skywalker.txt
+   # 4. Create a directory in star_wars/rebellion called millenium_falcon
+   --mkdir millenium_falcon
+   # 5. Inside the millenium_falcon, create two files: han_solo.txt and                chewbacca.txt
+   --touch han_solo.txt chewbacca.txt
+   # 6. Move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon,    respectively.
+   --mv luke_skywalker obi_wan princess_leia ./millenium_falcon
+   # 7. Move the millenium_falcon into the death_star.
+   --mv millenium_falcon ../death-star  
 
 <img height=200 src="https://res.cloudinary.com/ahonore42/image/upload/v1611102604/ga/act2.png" alt="act2" />
 
@@ -44,6 +73,21 @@ Working with the terminal command line is a key skill to develop as a programmer
 * How will our heroes prevail?
 * At the end of `act3.sh` your file tree should look like this:
 
+   # 1. Unload the Millenium Falcon in ONE COMMAND!
+  # Move the whole crew from the millenium_falcon directory into the death_star directory. HINT: * following a directory will    grab all files/folders inside of a directory (directory/*)
+   --mv millenium_falcon/* death_star
+   # 2. darth_vader has defeated obi_wan! Delete poor obi_wan.
+   ):
+   # 3.  Our heroes have disabled the tractor beam! Move the whole crew back into the millenium_falcon!
+   # Remember: darth_vader remains in the death_star and emperor_palpatine is still in the empire.
+   --mv chewbacca.txt luke_skywalker.txt princess_leia.txt han_solo.txt  ./mellenium_falcon
+   # 4. Move the millenium_falcon back into the rebellion directory. 
+   --mv mellenium_falcon ../../rebellion
+   # 5. darth_vader leaves the death_star to pursue luke_skywalker! Move him from the death_star into the empire directory!       mv  darth_vader.txt .empire
+   --mv darth_vader.txt ../../empire
+
+   # 6. Thanks to his practice back home at Beggar’s Canyon, Luke blew up the death_star! Remove it from the galaxy!
+   --rm -rf death_star
 <img height=200 src="https://res.cloudinary.com/ahonore42/image/upload/v1611102619/ga/act3.png" alt="act3" />
 
 ## You did it! The Rebellion is saved (for now...)!
