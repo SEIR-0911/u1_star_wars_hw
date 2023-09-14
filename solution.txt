@@ -1,0 +1,203 @@
+    1  chsh -s $(which zsh)
+    2  brew install node
+    3  node -v
+    4  install node
+    5  brew install node
+    6  brew help
+    7  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    8  ls
+    9  (/opt/homebrew/bin/brew shellenv)
+   10  cd /Users/ben/.zprofile
+   11  cd Users/ben/.zprofile
+   12  (/opt/homebrew/bin/brew shellenv)
+   13  brew help
+   14  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   15  pwd
+   16  ls -a
+   17  touch .zprofile
+   18  ls -a
+   19  (/opt/homebrew/bin/brew shellenv)
+   20  brew install zsh
+   21  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"')
+   22  (/opt/homebrew/bin/brew shellenv)
+   23  brew install zsh
+   24  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ben/.zprofile
+   25  eval "$(/opt/homebrew/bin/brew shellenv)"
+   26  brew install zsh
+   27  brew install node
+   28  node -v
+   29  brew install git
+   30  git config --global user.name Ben
+   31  git config --global user.email bwhittaker1415@gmail.com
+   32  git config --global user.name BWhittaker1415
+   33  ssh-keygen -t rsa -b 4096 -C bwhittaker1415@gmail.com
+   34  eval "$(ssh-agent -s)"'\npbcopy < ~/.ssh/id_rsa.pub\n\neval "$(ssh-agent -s)"'
+   35  pbcopy < ~/.ssh/id_rsa.pub
+   36  ssh git@github.com
+   37  brew install --cask visual-studio-code
+   38  code .
+   39  pwd
+   40  ls
+   41  desktop
+   42  GA
+   43  unit1
+   44  week1
+   45  monday
+   46  ls
+   47  git clone https://github.com/BWhittaker1415/u1_Installfest.git
+   48  ls
+   49  u1_Installfest
+   50  ls
+   51  cd ..
+   52  git clone https://github.com/BWhittaker1415/test-repo.git
+   53  ls
+   54  cd test-repo
+   55  touch index.html
+   56  ls
+   57  git add .
+   58  git commit -m"initial commit"
+   59  git push origin main
+   60  cd
+   61  git clone https://github.com/BWhittaker1415/u1_star_wars_hw.git
+   62  code .
+   63  cd u1_star_wars_hw
+   64  ls
+   65  cd act1.sh
+   66  ls
+   67  pwd
+   68  act1.sh
+   69  cd
+   70  https://github.com/BWhittaker1415/u1_star_wars_hw.git
+   71  git clone https://github.com/BWhittaker1415/u1_star_wars_hw.git
+   72  cd u1_star_wars_hw
+   73  code .
+   74  cd act1.sh
+   75  mkdir star_wars
+   76  cd star_wars
+   77  mkdir empire rebellion
+   78  ls
+   79  cd empire
+   80  touch darth_vader.txt
+   81  git add .
+   82  git commit -m"...heavy breathing..."
+   83  touch emperor_palpatine.txt
+   84  git add .
+   85  git commit -m"unlimited powergit add ."
+   86  mkdir death_star
+   87  cd ..
+   88  cd rebellion
+   89  touch princess_leia.txt && "Help me, Obi-Wan..."
+   90  git add .
+   91  git commit -m"Help me, Obi-Wan..."
+   92  touch obi_wan.txt
+   93  git add .
+   94  git commit -m"Hello there"
+   95  touch luke_skywalker.txt
+   96  git add .
+   97  git commit -m"trust in the force"
+   98  mkdir millenium_falcon
+   99  cd millenium_falcon
+  100  touch han_solo chewbacca.txt
+  101  git add .
+  102  git commit -m"dynamic duo"
+  103  mv ~/millenium_falcon/chewbacca.txt han_solo luke_skywalker.txt obi_wan.txt princess_leia.txt ~/death_star/chewbacca.txt han_solo luke_skywalker.txt obi_wan.txt princess_leia.txt
+  104  git add .
+  105  git commit -m"move"
+  106  git add .
+  107  git commit -m"next"
+  108  git add
+  109  git add .
+  110  git commit -m"again"
+  111  git restore <file>
+  112  git restore <luke_skywalker.txt>
+  113  git push
+  114  history
+  115  cd
+  116* pwd
+  117* ls
+  118* cd desktop
+  119* ls
+  120* GA/unit1/week1
+  121* mkdir tuesday
+  122* tuesday
+  123* ls
+  124* pwd
+  125* git clone https://github.com/BWhittaker1415/u1_js_intro_datatypes.git
+  126* ls
+  127* u1_js_intro_datatypes
+  128* touch script.js
+  129* ls
+  130* code .
+  131* ls
+  132* node script.js
+  133  pwd
+  134  cd desktop/GA/unit1/week1/monday
+  135  ls
+  136  git clone git@github.com:BWhittaker1415/u1_star_wars_hw.git
+  137  cd u1_star_wars_hw
+  138  code .
+  139  pwd
+  140  ls
+  141  cd star_wars
+  142  ls
+  143  cd ..
+  144  ls
+  145  mkdir star_wars
+  146  ls
+  147  cd star_wars
+  148  mkdir empire rebellion
+  149  cd empire
+  150  touch darth_vader.txt
+  151  echo -n "...heavy breathing..." | cat > darth_vader.txt
+  152  touch emperor_palpatine.txt
+  153  mkdir death_star
+  154  mv star_wars/empire/darth_vader.txt/* star_wars/empire/death_star/darth_vader.txt
+  155  ~/empire/darth_vader.txt ~/death_star/darth_vader
+  156  ls
+  157  mv darth_vader.txt ~u1_star_wars_hw/star_wars/empire\ empire/death_star
+  158  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  159  mv darth_vader.txt death_star
+  160  cd ..
+  161  cd rebellion
+  162  touch princess_leia.txt && echo -n "Helpme, Obi-Wan..."
+  163  ls
+  164  cd princess_leia.txt
+  165  cd ..
+  166  cd rebellion
+  167  ls
+  168  rm princess_leia.txt
+  169  ls
+  170  touch princess_leia.txt && echo -n "Help me, Obi-Wan..." | cat > princess_leia.txt
+  171  touch obi_wan.txt
+  172  ls
+  173  touch luke_skywalker.txt
+  174  ls
+  175  mkdir millenium_falcon
+  176  ls
+  177  cd millenium_falcon
+  178  touch han_solo.txt chewbacca.txt
+  179  ls
+  180  cd ..
+  181  mv obi_wan.txt millenium_falcon
+  182  ls
+  183  mv luke_skywalker.txt millenium_falcon
+  184  mv princess_leia.txt millenium_falcon
+  185  ls
+  186  mv millenium_falcon empire/death_star
+  187  mv millenium_falcon death_star
+  188  ls
+  189  cd death_star
+  190  ls
+  191  cd ..
+  192  mv death_star millenium_falcon/
+  193  mv ~/millenium_falcon ~/empire/death_star
+  194  mv chewbacca.txt && han_solo.txt && luke_skywalker.txt && obi_wan.txt && princess_leia.txt death_star
+  195  mv ~/u1_star_wars_hw/star_wars/rebellion/millenium_falcon ~/u1_star_wars_hw/star_wars/empire/death_star
+  196  mv ~/u1_star_wars_hw/star_wars/rebellion/millenium_falcon/* ~/u1_star_wars_hw/star_wars/empire/death_star
+  197  rm obi_wan.txt
+  198  cd millenium_falcon
+  199  ls
+  200  rm obi_wan.txt
+  201  mv darth_vader.txt empire
+  202  cd ..
+  203  mv darth_vader.txt empire
