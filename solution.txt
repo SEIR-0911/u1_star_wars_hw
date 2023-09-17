@@ -1,0 +1,106 @@
+Last login: Sun Sep 17 05:09:52 on ttys009
+➜  u1_star_wars_hw git:(main) mkdir star_wars
+➜  u1_star_wars_hw git:(main) pwd
+/Users/romanfrotan/Desktop/ga/unit1/week1/monday/u1_star_wars_hw
+➜  u1_star_wars_hw git:(main) cd star_wars
+➜  star_wars git:(main) mkdir empire
+➜  star_wars git:(main) pwd
+/Users/romanfrotan/Desktop/ga/unit1/week1/monday/u1_star_wars_hw/star_wars
+➜  star_wars git:(main) ls
+empire
+➜  star_wars git:(main) cd .
+➜  star_wars git:(main) pwd
+/Users/romanfrotan/Desktop/ga/unit1/week1/monday/u1_star_wars_hw/star_wars
+➜  star_wars git:(main) mkdir rebellion
+➜  star_wars git:(main) ls
+empire    rebellion
+➜  star_wars git:(main) cd empire
+➜  empire git:(main) touch darth_vader.txt
+➜  empire git:(main) ✗ open darth_vader.txt 
+➜  empire git:(main) ✗ cd .
+➜  empire git:(main) ✗ touch emperor_palpatine.txt
+➜  empire git:(main) ✗ cd .
+➜  empire git:(main) ✗ mkdir death_star
+➜  empire git:(main) ✗ ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ mv darth_vader.txt/death_star
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  empire git:(main) ✗ ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ mv darth_vader.txt death_star 
+➜  empire git:(main) ✗ cd .
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd rebellion
+cd: no such file or directory: rebellion
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd rebellion
+➜  rebellion git:(main) ✗ touch princess_leia.txt echo "Help me, Obi-Wan"
+➜  rebellion git:(main) ✗ pwd
+/Users/romanfrotan/Desktop/ga/unit1/week1/monday/u1_star_wars_hw/star_wars/rebellion
+➜  rebellion git:(main) ✗ touch obi_wan.txt
+➜  rebellion git:(main) ✗ touch luke_skywalker.txt
+➜  rebellion git:(main) ✗ ls
+Help me, Obi-Wan   luke_skywalker.txt princess_leia.txt
+echo               obi_wan.txt
+➜  rebellion git:(main) ✗ rm echo
+➜  rebellion git:(main) ✗ ls
+Help me, Obi-Wan   luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ rm Help\ me,\ Obi-Wan 
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ open princess_leia.txt 
+➜  rebellion git:(main) ✗ cd .
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ pwd
+/Users/romanfrotan/Desktop/ga/unit1/week1/monday/u1_star_wars_hw/star_wars/rebellion
+➜  rebellion git:(main) ✗ mkdir millenium_falcon
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ pwd
+/Users/romanfrotan/Desktop/ga/unit1/week1/monday/u1_star_wars_hw/star_wars/rebellion
+➜  rebellion git:(main) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(main) ✗ touch han_solo.txt
+➜  millenium_falcon git:(main) ✗ touch chewbacca.txt
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(main) ✗ pwd
+/Users/romanfrotan/Desktop/ga/unit1/week1/monday/u1_star_wars_hw/star_wars/rebellion/millenium_falcon
+➜  millenium_falcon git:(main) ✗ cd .
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt millenium_falcon 
+➜  rebellion git:(main) ✗ mv obi_wan.txt millenium_falcon 
+➜  rebellion git:(main) ✗ mv princess_leia.txt millenium_falcon 
+➜  rebellion git:(main) ✗ ls
+millenium_falcon
+➜  rebellion git:(main) ✗ ls                  
+millenium_falcon
+➜  rebellion git:(main) ✗ cd .
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd rebellion 
+➜  rebellion git:(main) ✗ ls
+millenium_falcon
+➜  rebellion git:(main) ✗ mv millenium_falcon/ death_star
+➜  rebellion git:(main) ✗ ls 
+death_star
+➜  rebellion git:(main) ✗ cd death_star
+➜  death_star git:(main) ✗ ls
+chewbacca.txt      luke_skywalker.txt princess_leia.txt
+han_solo.txt       obi_wan.txt
+➜  death_star git:(main) ✗ cd .
+➜  death_star git:(main) ✗ cd rebellion 
+cd: no such file or directory: rebellion
+➜  death_star git:(main) ✗ cd ..
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd millineium_falcon 
+cd: no such file or directory: millineium_falcon
+➜  star_wars git:(main) ✗ 
+//
+//
+this is where i had questions. i couldnt find millenium_falcon after this.
