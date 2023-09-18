@@ -1,0 +1,43 @@
+258  cd desktop
+  259  cd u1_star_wars_hw
+  260  touch act1.sh
+  261  touch act2.sh
+  262  touch act3.sh
+  263  mkdir star_wars
+  264  cd star_wars
+  265  mkdir empire
+  266  mkdir rebellion
+  267  cd empire
+  268  touch darth_vader.txt 
+  269  echo ...heavy breathing... > darth_vader.txt
+  270  touch emperor_palpatine.txt\n
+  271  mkdir death_star
+  272  whoami
+  273  whereami
+  274  ls
+  275  git add
+  276  git add .
+  277  git commit -m Act1
+  278  cd star_wars/rebellion
+  279  cd rebellion
+  280  touch princess_leia.txt && echo Help me, Obi-Wan…>princess_leia.txt
+  281  touch obi_wan.txt
+  282  touch luke_skywalker.txt
+  283  mkdir millenium_falcon
+  284  cd millenium_falcon
+  285  touch han_solo.txt && touch chewbacca.txt
+  286  git add .
+  287  git commit -m Act2
+  288  % mv /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/rebellion/millenium_falcon ~ /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/empire/death_star
+  289  % mv /Desktop/u1_star_wars_hw/star_wars/rebellion/millenium_falcon ~/Desktop/u1_star_wars_hw/star_wars/empire/death_star
+  290  mv /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/rebellion/millenium_falcon ~ /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/empire/death_star
+  291  git add .
+  292  git commit -m Act2
+  293  rm /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/empire/death_star/millenium_falcon/obi_wan.txt 
+  294  mv /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/empire/death_star/millenium_falcon ~ /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/rebellion 
+  295  mv /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/empire/death_star/darth_vader.txt ~ /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/rebellion 
+  296  mv /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/rebellion/darth_vader.txt ~ /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/empire 
+  297  rm /Users/kevinbarber/Desktop/u1_star_wars_hw/star_wars/empire/death_star 
+  298  git add .
+  299  git commit -m Act3
+  300  git push
