@@ -1,0 +1,251 @@
+  271  cd monday
+  272  ls
+  273  mkdir U1_Star_Wars_HW
+  274  cd u1_star_wars_hw
+  275  git clone https://github.com/sammymarks/u1_star_wars_hw.git
+  276  ls
+  277  cd ..
+  278  clear
+  279  ls
+  280  cd u1_star_wars_hw
+  281  git status
+  282  git init
+  283  git status
+  284  mkdir star_wars
+  285  cd star_wars
+  286  mkdir empire rebellion
+  287  ls
+  288  cd empire
+  289  touch darth_vader.txt
+  290  echo "...heavy breathing..." >> darth_vader.txt
+  291  touch emporor_palpatine.txt
+  292  mkdir death_star
+  293  move darth_vader.txt ~/death_star
+  294  mve darth_vader.txt ~/death_star
+  295  mv darth_vader.txt ~/death_star
+  296  cd..
+  297  cd ..
+  298  ls
+  299  git add .
+  300  git status
+  301  git commit -m "act1 first commit"
+  302  git push origin main
+  303  cd ..
+  304  ls
+  305  mv star_wars ~/u1_star_wars_hw
+  306  cd u1_star_wars_hw
+  307  git status
+  308  ls
+  309  cd desktop
+  310  cd ga
+  311  ls
+  312  cd unit1
+  313  mkdir week1
+  314  mkdir week1/monday
+  315  pwd
+  316  cd week1/monday
+  317  pwd
+  318  cd ..
+  319  ls
+  320  pwd
+  321  cd ~
+  322  pwd
+  323  clear
+  324  cd desktop/ga/unit1/week1
+  325  ls
+  326  pwd
+  327  cd monday
+  328  pwd
+  329  touch file.txt
+  330  ls
+  331  cd ~
+  332  brew install zsh
+  333  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  334      (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/sammymarks/.zprofile
+  335  eval "$(/opt/homebrew/bin/brew shellenv)"\n
+  336  pwd
+  337  brew install zsh
+  338  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  339  cd
+  340  pwd
+  341  cd desktop/ga/unit1/week1/monday
+  342  ls
+  343  cd u1_star_wars_hw
+  344  git clone https://github.com/sammymarks/u1_star_wars_hw.git
+  345  cd u1_star_wars_hw
+  346  ls
+  347  mkdir empire rebellion
+  348  ls
+  349  cd empire
+  350  touch darth_vader.txt
+  351  ls
+  352  echo "...heavy breathing...\n\nq\nexit\n..
+  353  echo "...heavy breathing..." >> darth
+  354  echo "...heavy breathing..." >> darth_vader.txt
+  355  ls
+  356  rm darth
+  357  touch emperor_palpatine.txt
+  358  mkdir death_star
+  359  mv darth_vader.txt ~/death_star
+  360  ls
+  361  cd death_star
+  362  ls
+  363  cd ..
+  364  touch darth_vader.txt
+  365  echo "...heavy breathing..." >> darth_vader.txt
+  366  cp darth_vader.txt ~/death_star
+  367  ls death_star
+  368  pwd
+  369  cp darth_vader.txt death_star
+  370  ls death_star
+  371  cd death_star
+  372  ls
+  373  rm darth_vader.txt
+  374  cd ..
+  375  ls
+  376  mv darth_vader.txt death_star
+  377  ls deatg_star
+  378  ls death_star
+  379  ls
+  380  history | tail -n 250
+  381  cd ..
+  382  ls
+  383  echo "  340  pwd\n  341  cd desktop/ga/unit1/week1/monday\n  342  ls\n  343  cd u1_star_wars_hw\n  344  git clone https://github.com/sammymarks/u1_star_wars_hw.git\n  345  cd u1_star_wars_hw\n  346  ls\n  347  mkdir empire rebellion\n  348  ls\n  349  cd empire\n  350  touch darth_vader.txt\n  351  ls\n  352  echo "...heavy breathing...\n\nq\nexit\n..\n  353  echo "...heavy breathing..." >> darth\n  354  echo "...heavy breathing..." >> darth_vader.txt\n  355  ls\n  356  rm darth\n  357  touch emperor_palpatine.txt\n  358  mkdir death_star\n  359  mv darth_vader.txt ~/death_star\n  360  ls\n  361  cd death_star\n  362  ls\n  363  cd ..\n  364  touch darth_vader.txt\n  365  echo "...heavy breathing..." >> darth_vader.txt\n  366  cp darth_vader.txt ~/death_star\n  367  ls death_star\n  368  pwd\n  369  cp darth_vader.txt death_star\n  370  ls death_star\n  371  cd death_star\n  372  ls\n  373  rm darth_vader.txt\n  374  cd ..\n  375  ls\n  376  mv darth_vader.txt death_star\n  377  ls deatg_star\n  378  ls death_star\n  379  ls" >> solution.txt\n
+  384  git add .
+  385  git status
+  386  git commit -m "act1 initial commit"
+  387  git push
+  388  git push origin main
+  389  cd desktop/ga/unit1/week1/monday
+  390  ls
+  391  cd u1_star_wars_hw
+  392  ls
+  393  cd u1_star_wars_hw
+  394  ls
+  395  git add .
+  396  git commit -m "act 1 commit"
+  397  git push origin main
+  398  sudo nano /etc/ssh/sshd_config
+  399  git push origin main
+  400  cd desktop/ga/unit1/week1/monday
+  401  cd u1_star_wars_hw
+  402  sudo systemctl restart sshd
+  403  /bin/systemctl restart sshd
+  404  ~/bin/systemctl restart sshd
+  405  ~users/bin/systemctl restart sshd
+  406  ~Users/bin/systemctl restart sshd
+  407  eval "$(ssh-agent -s)"
+  408  ssh -T git@github.com
+  409  git push origin main
+  410  ls
+  411  cd u1_star_wars_hw
+  412  git push origin main
+  413  git reset
+  414  git add .
+  415  git commit -m "act1 commit"
+  416  git push origin main
+  417  git remote -v
+  418  history | tail -n 250
+  419  cd ..
+  420  cd desktop/ga/unit1/week1/monday
+  421  git clone git@github.com:sammymarks/u1_star_wars_hw.git
+  422  ls
+  423  cd u1_star_wars_hw
+  424  ls
+  425  touch act_test.txt
+  426  git add .
+  427  git commit -m "test"
+  428  git push origin main
+  429  ls
+  430  mkdir star_wars
+  431  cd star_wars
+  432  mkdir empire rebellion
+  433  ls
+  434  cd empire
+  435  touch darth_vader.txt
+  436  echo "...heavy breathing..." >> darth_vader.txt
+  437  mkdir emperor_palpatine.txt
+  438  rm -r emperor_palpatine.txt
+  439  touch emperor_palpatine.txt
+  440  mkdir death_star
+  441  mv darth_vader.txt death_star
+  442  ls death_star
+  443  cd ..
+  444  git add .
+  445  git commit -m "act 1 commit"
+  446  git push origin main
+  447  ls
+  448  cd star_wars
+  449  ls
+  450  cd rebellion
+  451  touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt
+  452  ls
+  453  touch luke_skywalker.txt
+  454  mkdir millenium_falcoln
+  455  rm -r millenium_falcoln
+  456  mkdir millenium_falcon
+  457  ls
+  458  cd millenium_falcon
+  459  touch han_solo.txt chewbacca.txt
+  460  cd ..
+  461  touch obi_wan.txt
+  462  ls
+  463  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  464  ls
+  465  ls millenium_falcon
+  466  cd ..
+  467  mv rebellion/millenium_falcon/ empire/death_star/
+  468  ls empire/death_star
+  469  git add .
+  470  git commit -m "act2 commit"
+  471  git push origin main
+  472  cd empire
+  473  ls
+  474  cd death_star
+  475  ls
+  476  cd ..
+  477  mv -v ~/death_star/millenium_falcon/* ~/death_star/
+  478  ls death_star
+  479  ls death_star/millenium_falcon
+  480  mv -v /death_star/millenium_falcon/* /death_star/
+  481  ls death_star
+  482  ls death_star/millenium_falcon
+  483  mv /death_star/millenium_falcon/* ..
+  484  mv ~/death_star/millenium_falcon/* ..
+  485  mv death_star/millenium_falcon/* ..
+  486  ls death_star
+  487  mv -v death_star/millenium_falcon/* death_star/
+  488  ls death_star/millenium_falcon
+  489  ls
+  490  cd death_star
+  491  ls
+  492  mv -v millenium_falcon/* death_star
+  493  ls millenium_falcon
+  494  cd ..
+  495  mv han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt empire/death_star/millenium_falcon
+  496  ls empire/death_star/millenium_falcon
+  497  cd empire
+  498  mv -v death_star/millenium_falcon/* death_star/
+  499  rm death_star/obi_wan.txt
+  500  ls death_star
+  501  cd death_star
+  502  mv han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon/
+  503  ls
+  504  cd ..
+  505  mv death_star/darth_vader.txt ..
+  506  ls
+  507  mv death_star/darth_vader.txt ../
+  508  cd ..
+  509  mv darth_vader.txt empire/
+  510  ls empire
+  511  ls empire/death_star
+  512  mv empire/death_star/millenium_falcon/ rebellion/
+  513  ls rebellion
+  514  rm -r empire/death_star
+  515  ls empire
+# Chewbacca missed the whole episode starting at line 463 :(
+  516  mv chewbacca.txt rebellion/millenium_falcon/
+  517  git add .
+  518  git commit -m "act3 commit"
+  519  git push origin main
+  520  git status
